@@ -132,6 +132,11 @@ include ("my_templates/for_main.php");
                    if ($title=='Без имени') {$title = "Товары";drupal_set_title("Товары");};
                    print $title;
                    echo "</h1>";}
+                   if ($title=="Корзина"){$uid = $user->uid;
+                                          echo "<div class='margin_left_little'>";
+                                          if ($uid!=0) {echo"<a href='/user/".$uid."/orders'>";} else {echo "<a href='/user'>";}
+                                          echo "Мои заказы</a></div>";}
+
              print render($title_suffix); 
              print $messages; 
              print render($tabs); 
