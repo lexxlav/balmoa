@@ -307,6 +307,7 @@ function select_filters($arg)
               #edit-field-sim-count-value-wrapper, /*Sim count value*/ 
               #edit-field-mobile-nets-tid-wrapper, /*Mobile nets*/ 
               #edit-field-photo-camera-value-wrapper, /*Razr camera*/
+              #edit-field-qwerty-value-wrapper, /*Qwerty type*/ 
               #edit-field-accum-value-wrapper /*Accum value*/
               {
                 display:block;
