@@ -1,5 +1,4 @@
 <!-- For main page -->
-
 <!-- Нас благодарят -->
 <?php 
  
@@ -267,20 +266,20 @@ function select_filters($arg)
      echo "<style type='text/css'>
               #edit-field-os-tid-wrapper, /*os*/
               #edit-shs-term-node-tid-depth-wrapper, /*Processor*/
-              #edit-field-field-razr-disp-tid-wrapper,/*Razr_disp*/
+            /*  #edit-field-field-razr-disp-tid-wrapper,*//*Razr_disp*/
               #edit-field-interface-language-tid-wrapper, /*Language*/
-              #edit-field-memory-card-type-tid-wrapper, /*Memory card type*/
+            /*  #edit-field-memory-card-type-tid-wrapper,*/ /*Memory card type*/
               #edit-field-disc-memory-value-wrapper, /*Disc memory value*/
               #edit-field-memory-flash-value-wrapper, /*memory flash value*/ 
               #edit-field-sim-count-value-wrapper, /*Sim count value*/ 
               #edit-field-mobile-nets-tid-wrapper, /*Mobile nets*/ 
-              #edit-field-data-transmission-tid-wrapper, /*Data transmission*/ 
+            /*  #edit-field-data-transmission-tid-wrapper,*/ /*Data transmission*/ 
               #edit-field-display-type-tid-wrapper, /*Display type*/ 
               #edit-field-diagonal-disp-value-wrapper, /*Display diagonal*/ 
               #edit-field-qwerty-value-wrapper, /*Qwerty type*/ 
               #edit-field-photo-camera-value-wrapper, /*Razr camera*/
-              #edit-field-accum-value-wrapper, /*Accum value*/
-              #edit-field-matrix-type-tid-wrapper /*Matrix type*/
+              #edit-field-accum-value-wrapper /*Accum value*/
+           /*   #edit-field-matrix-type-tid-wrapper*/ /*Matrix type*/
               {
                 display:block;
                }
@@ -326,16 +325,16 @@ function select_filters($arg)
     }
     if ($arg=="Планшеты"){
           echo "<style type='text/css'>
-              #edit-field-display-type-tid-wrapper, /*Display type*/ 
+             /* #edit-field-display-type-tid-wrapper,*/ /*Display type*/ 
               #edit-field-diagonal-disp-value-1--2-wrapper, /*Display diag for Pads*/
               #edit-field-field-razr-disp-tid-wrapper,/*Razr_disp*/
               #edit-shs-term-node-tid-depth-wrapper, /*Processor*/
               #edit-field-disc-memory-value-wrapper, /*Disc memory value*/
               #edit-field-memory-flash-value-wrapper, /*memory flash value*/ 
               #edit-field-mobile-nets-tid-wrapper, /*Mobile nets*/ 
-              #edit-field-data-transmission-tid-wrapper, /*Data transmission*/ 
-              #edit-field-os-tid-wrapper, /*os*/
-              #edit-field-matrix-type-tid-wrapper /*Matrix type*/
+             /* #edit-field-data-transmission-tid-wrapper, *//*Data transmission*/ 
+              #edit-field-os-tid-wrapper /*os*/
+             /* #edit-field-matrix-type-tid-wrapper *//*Matrix type*/
               {
                 display:block;
                }
@@ -457,7 +456,7 @@ function select_filters($arg)
     if ($arg=="GPS-навигаторы"){
           echo "<style type='text/css'>
              #edit-field-diagonal-disp-value-wrapper, /*Display diagonal*/ 
-             #edit-field-field-razr-disp-tid-wrapper,/*Razr_disp*/
+             /*#edit-field-field-razr-disp-tid-wrapper,*//*Razr_disp*/
              #edit-field-interface-language-tid-wrapper, /*Language*/
              #edit-field-wifi-802-11-tid-wrapper, /*Wifi 802.11*/
              #edit-field-gps-module-tid-wrapper, /*GPS module*/
@@ -506,8 +505,4 @@ function select_filters($arg)
     }
   
 }
-
-
-//---------------------------------------------------------
-
-  ?>
+?>

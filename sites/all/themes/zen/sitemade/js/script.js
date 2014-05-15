@@ -27,22 +27,24 @@ $(document).ready(function(){
 
   
   $('.view-our-slider > div').bxSlider({
-    slideWidth: 695,
+    slideWidth: 705,
     minSlides: 1,
     maxSlides: 1,
     moveSlides: 1,
     slideMargin: 10,
     auto: true,
-    pause:5000 
+    pause:5000,
+    mode:'fade' 
   });
   $('.view-our-slider2 > div').bxSlider({
-    slideWidth: 695,
+    slideWidth: 705,
     minSlides: 1,
     maxSlides: 1,
     moveSlides: 1,
     slideMargin: 10,
     auto: true,
-    pause:5000 
+    pause:5000, 
+    mode:'fade' 
   });
  /* slider.startAuto();*/
 });

@@ -7,15 +7,9 @@
  * @see https://drupal.org/node/1728148   
  */
 
-
-
-
-
-
 $current_dir = "http://sport_shop.loc/sites/all/themes/zen/sitemade/"; //for <base>
 include ("my_templates/for_main.php");
 ?>
-
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <?php if(arg(0)=="node") {front_page_css();}?>
 <a id="front"></a>
@@ -77,7 +71,7 @@ include ("my_templates/for_main.php");
          <div class="span3">
             <div class="row-fluid enter_links">
               <p><?php if (!empty($user) && $user->uid != 0) {echo "<a href='/user'>Настройка учетной записи</a><a href='/user/logout'> Выход </a>";} 
-                else {echo "<a href='/user'>Вход|Регистрация</a>";} ?>
+                else {echo "<a href='/user'>Вход | Регистрация</a>";} ?>
                 <?php print render($page['autorization']); ?></p> 
             </div> 
            <div class="cart_link"> 
@@ -107,8 +101,11 @@ include ("my_templates/for_main.php");
 
 
     
-      <?php  if ($page['highlighted']){print render($page['highlighted']);}
+      <?php  if ($page['highlighted']) {print render($page['highlighted']);}
                else {print render($page['highlighted2']);}
+             
+             if(isset($GLOBALS['show_banner_true']) && ($GLOBALS['show_banner_true']==1)){print render($page['highlighted2']); $GLOBALS['show_banner_true']=0;}
+
       ?>
     
       <a id="main-content"></a>

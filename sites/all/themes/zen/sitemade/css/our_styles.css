@@ -896,7 +896,7 @@ width: 240px;
 /*width: 25%;*/
 margin-left: 0%;
 margin-right: -20%;
-height: 263px;}
+height: 262px;}
 
 /* -------------- */
 
@@ -1139,4 +1139,21 @@ background: #3a449e;
 
 .margin_left_little {
 	margin-left: 20px;
+}
+
+#cboxTitle {
+	display: none !important;
+}
+
+.bx-wrapper {
+position: relative;
+margin: 0;
+padding: 0;
+}
+
+.region-highlighted2 {
+	width: 700px;
+	padding: 0;
+	margin: 0;
+	margin-left: -5px;
 }
